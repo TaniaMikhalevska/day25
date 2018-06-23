@@ -1,0 +1,135 @@
+:root {
+    --font-playfair: 'playfair_displayregular' , serif;
+    --font-lato: 'latolight' , sans-serif;
+    --font-latobold: 'latobold' , sans-serif;
+    --font-latoitalic: 'latolight_italic' , sans-serif;}
+
+    
+
+@font-face {
+    font-family: 'playfair_displayregular';
+    src: url('fonts/Playfairdisplay/playfairdisplay-regular-webfont.eot');
+    src: url('fonts/playfairdisplay-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Playfairdisplay/playfairdisplay-regular-webfont.woff2') format('woff2'),
+         url('fonts/Playfairdisplay/playfairdisplay-regular-webfont.woff') format('woff'),
+         url('fonts/Playfairdisplay/playfairdisplay-regular-webfont.ttf') format('truetype'),
+         url('.fonts/Playfairdisplay/playfairdisplay-regular-webfont.svg#playfair_displayregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'latolight_italic';
+    src: url(fonts/Lato/lato-lightitalic-webfont.eot;);
+    src: url('fonts/Lato/lato-lightitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Lato/lato-lightitalic-webfont.woff2') format('woff2'),
+         url('fonts/Lato/lato-lightitalic-webfont.woff') format('woff'),
+         url('fonts/Lato/lato-lightitalic-webfont.ttf') format('truetype'),
+         url('fonts/Lato/lato-lightitalic-webfont.svg#latolight_italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+
+}
+@font-face {
+    font-family: 'latolight';
+    src: url('fonts/Lato/lato-light-webfont.eot');
+    src: url('fonts/Lato/lato-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Lato/lato-light-webfont.woff2') format('woff2'),
+         url('fonts/Lato/lato-light-webfont.woff') format('fonts/Lato/woff'),
+         url('fonts/Lato/lato-light-webfont.ttf') format('fonts/Lato/truetype'),
+         url('fonts/Lato/lato-light-webfont.svg#latolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'latobold';
+    src: url('fonts/Lato/lato-bold-webfont.eot');
+    src: url('fonts/Lato/lato-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Lato/lato-bold-webfont.woff2') format('woff2'),
+         url('fonts/Lato/lato-bold-webfont.woff') format('woff'),
+         url('fonts/Lato/lato-bold-webfont.ttf') format('truetype'),
+         url('fonts/Lato/lato-bold-webfont.svg#latobold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+
+}
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+html {
+    width: 100%;
+}
+body {
+    width: 100%;
+    background: #fff;
+    margin: 0;
+}
+.container {
+    width:1600px;
+    height: 1200px;
+    margin: 0 auto;
+}
+.day {
+    margin: 130px 100px;
+    padding: 134px 121px 0 121px;
+    background: #fff;
+    box-shadow: 0px 4px 68px 0px rgba(0, 0, 0, 0.1);
+    min-width: 1160px;
+}
+
+
+.day-h1 {
+    font: 400 42px var(--font-playfair);
+    margin-bottom: 25px;
+}
+
+.day-paragraph {
+    font-size: 18px;
+    line-height: 34px;
+    font-family: var(--font-lato);
+    color: rgba(23, 23, 23, 0.702);
+    letter-spacing: 0.6px;
+    margin-bottom: 40px;
+    
+}
+
+.day-paragraph:first-of-type::first-letter {
+    float: left;
+    padding-right: 32px;
+    padding-top: 34px;
+    font: 400 110px var(--font-playfair);
+    line-height: 40px;
+    color: #171717;
+}
+
+
+.day-paragraph:nth-of-type(4) {
+    font-size: 24px;
+    font-family: var(--font-latoitalic);
+    
+}
+.day-paragraph:nth-of-type(4) span {
+    font-size: 60px;   
+}
+
+.day-discover-button {
+    box-sizing: border-box;
+    color:#eaa258;
+    background: #fff;
+    border: 2px solid #eaa258;
+    outline: o;
+    width: 265px;
+    height: 68px;
+    font-size: 18px;
+    line-height: 34px;
+    font-family: var(--font-latobold);
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-bottom: 120px;
+}
+
+
+
